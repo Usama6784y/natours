@@ -14,7 +14,7 @@ const ApiFeatures = require('../utils/apiFeatures');
 //     data: null,
 //   });
 // });
-
+// adding a cooment for git
 exports.deleteOne = (Model) =>
   catchAsync(async (req, res, next) => {
     const doc = await Model.findByIdAndDelete(req.params.id);
